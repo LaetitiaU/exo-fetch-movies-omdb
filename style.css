@@ -1,0 +1,30 @@
+body {
+    background-color:lightgoldenrodyellow;
+}
+
+#movies {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin:0 auto;
+}
+
+li {
+    list-style-type: none;
+}
+
+#movies-search {
+    display:block;
+    margin:0 auto;
+}
+
+.chercher {
+    text-align: center;
+    padding:3px;
+}
+
+#searchbutton {
+display: block;
+margin:0 auto;
+margin-bottom: 30px;
+}
